@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="../css/bootstrap.min.css">
+    	<link rel="stylesheet" href="../css/login.css">
+    </head>
+    <body>
+    	<a href="" name="top" class="miaodian"> </a>
+    	<a href="#top" class="dingbu">
+    		<svg class="icon" aria-hidden="true">
+			  <use xlink:href="#icon-dingbu"></use>
+			</svg>
+    	</a>
+    	<div class="top visible-md visible-lg">
+    		<div class="top-width">
+    			<div class="T-C pull-left">
+    				<svg class="icon" aria-hidden="true">
+					  <use xlink:href="#icon-dianhua"></use>
+					</svg>
+					<span>0512-67671223</span>
+					<svg class="icon icon-1" aria-hidden="true">
+					  <use xlink:href="#icon-zhongbiao"></use>
+					</svg>
+					<span>上午9点至下午6点</span>
+    			</div>
+    			<div class="reg pull-right">
+    				<a href="#">
+    					<svg class="icon" aria-hidden="true">
+						  <use xlink:href="#icon-rss"></use>
+						</svg>
+    				</a>
+    				<a href="reg.html">
+    					<svg class="icon" aria-hidden="true">
+						  <use xlink:href="#icon-denglu"></use>
+						</svg>
+						<span>登录</span>
+    				</a>
+    				<a href="login.html">
+    					<svg class="icon" aria-hidden="true">
+						  <use xlink:href="#icon-login"></use>
+						</svg>
+						<span>注册</span>
+    				</a>
+    			</div>
+    		</div>
+    	</div>
+		<div class="nav">
+    		<div class="container dd">
+				<nav class="navbar navbar-default nav1">
+				  <div class="container-fluid ">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand bb" href="#"><img src="../images/logo.png" alt="" width="170px" class="logo"></a>
+				    </div>
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    	<ul class="top-nav">
+				    		<li><a href="../index.html">首页</a></li>
+				    		<li><a href="abouts.html">关于我们</a></li>
+				    		<li><a href="product.html">产品介绍</a></li>
+				    		<li><a href="information.html">理财资讯</a></li>
+				    		<li><a href="invite.html">招贤纳士</a></li>
+				    		<li><a href="contact.html">联系我们</a></li>
+				    	</ul>
+						<div class="Call pull-right visible-lg visible-md">
+      						<img src="../images/tel.png" alt="" width="40px">
+							<span>4001-200-100</span>
+      					</div>
+      				</div>	
+
+				  </div>
+				</nav>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<p class="text-center"><img src="../images/banner2.png" alt="" class="pur"></p>
+					</div>
+					<div class="col-md-6">
+						<form action="" onsubmit="return result()" method="post">
+							<div class="ifm">基本信息</div>
+							<div class="d-user"><p class="pull-left">登录名<span data-toggle="tooltip" data-placement="bottom" title="英文字母和数字"><img src="../images/help.png" alt=""></span><small>*</small></p><input type="text" class="pull-right user"><br><h6 class="pull-right user-h6"><p>此项必须填写</p></h6></div>
+							<div class="d-email"><p class="pull-left">电子邮箱<small>*</small></p><input type="email" class="pull-right email"><h6 class="pull-right email-h6"><p>此项必须填写</p></h6></div>
+							<div class="d-pass"><p class="pull-left">密码<span data-toggle="tooltip" data-placement="bottom" title="最少8位"><img src="../images/help.png" alt=""></span><small>*</small></p><input type="password" class="pull-right pass"><h6 class="pull-right pass-h6"><p>此项必须填写</p></h6></div>
+							<div class="d-que">
+								<p class="pull-left">验证问题</p>
+								<p class="pull-right">请回答: 9 + 1 等于几?</p>
+								<input type="text" class="pull-right">
+							</div>
+							
+							<div class="agree"><input type="checkbox" class="agree-inp"><span>我同意《用户手册》和《保密条款》</span>
+							<h6 class="pull-left agree-h6"><p>您必须接受我们的用户条款</p></h6></div>
+
+							<div class="denglu">
+								<input type="submit" value="注册">
+								<a href="reg.html" class="pull-right">已经有帐号了？请登录</a>
+							</div>
+						</form>
+					</div>
+				</div>				
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<h4 class="text-center"><img src="../images/erweima.jpg" alt=""></h4>
+				<p class="text-center">版权所有2017&nbsp;地址：苏州市工业园区大道金鸡湖大道99号&nbsp;;苏ICP备1230012300号</p>
+			</div>
+		</footer>
+
+
+    <script src='../js/jquery-1.11.1.min.js'></script>
+    <script src='../js/bootstrap.min.js'></script>
+    <script src="../js/iconfont.js"></script>
+    <script src='../js/iconfont1.js'></script>	
+    <script src='../js/reg.js'></script>
+    <script>
+    	$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		})
+    </script>	
+    </body>
+</html>
